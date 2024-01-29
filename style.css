@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to left, rgb(247, 73, 73), rgb(253, 179, 129));
+}
+
+.search-container {
+  width: 600px;
+  margin: 200px auto 0;
+  background: wheat;
+  border-radius: 5px;
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+#fruit {
+  flex: 1;
+  height: 50px;
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+.suggestions ul li {
+  list-style: none;
+  border-radius: 3px;
+  padding: 15px 10px;
+  cursor: pointer;
+}
+
+.suggestions ul li:hover {
+  background-color: rgb(247, 168, 115);
+}
+
+.ul-style {
+  border-top: 1px solid rgb(190, 137, 37);
+  padding: 15px 10px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
